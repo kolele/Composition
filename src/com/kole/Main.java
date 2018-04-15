@@ -10,8 +10,7 @@ public class Main {
 	    Motherboard theMotherboard = new Motherboard("lebac","acer",4,4,"somebios");
 
 	    PC thePC = new PC(theCase,monitor,theMotherboard);
-	    thePC.getMonitor().drawPixelAt(22,5,"blue");
-	    thePC.getMotherboard().loadProgram("Windows");
-	    thePC.getTheCase().pressPowerButton();
+		thePC.powerUp();
+
     }
 }
